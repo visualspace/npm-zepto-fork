@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+# Build specific modules
+export MODULES="zepto event deferred callbacks touch"
+
 cd zepto
 npm install
 npm run-script dist
